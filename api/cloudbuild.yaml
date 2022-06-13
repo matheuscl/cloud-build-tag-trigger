@@ -1,5 +1,6 @@
 steps:
 - name: bash
   args: ['cat', 'api.txt']
+  dir: api
 - name: bash
   args: ['echo', 'API deployed successfully!!!']
