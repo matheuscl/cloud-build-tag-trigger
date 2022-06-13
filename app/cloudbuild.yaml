@@ -1,5 +1,6 @@
 steps:
 - name: bash
   args: ['cat', 'app.txt']
+  dir: app
 - name: bash
   args: ['echo', 'APP deployed successfully!!!']
